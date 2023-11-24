@@ -1,4 +1,4 @@
-/* GENERICS */
+            /* GENERICS */
 
 * {
     margin: 0;
@@ -141,7 +141,7 @@ header {
 }
            
                 /* FOOTER */
-            /*section 1*/
+            /*footer section 1*/
 
 .footer-section-1 {
     padding: 10px 0 30px 0;
@@ -178,3 +178,28 @@ header {
     border: 1px dashed white;
 }
 
+                /* footer section 2 */
+
+.footer-section-2 {
+    margin-top: 1px;
+    padding-top: 15px;
+            /*debug*/
+    background-color: #23272a;
+}
+
+.footer-outro {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+            /*debug*/
+    background-color: #7fffd4;
+}
+
+.footer-logo,
+.footer-button {
+    padding: 5px;
+            /*debug*/
+    background-color: #feb7c2;
+    border: var(--bordo);
+}
