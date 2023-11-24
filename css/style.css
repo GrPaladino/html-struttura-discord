@@ -56,3 +56,22 @@ header {
 .small {
     flex-basis: 200px;
 }
+
+                /*MAIN*/
+
+.main-1 {
+    padding: 40px 0;
+          
+            /*debug*/
+    background-color: #00008b;
+}
+
+.card {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+
+            /*debug*/
+    background-color: #ee82ee;
+    border: var(--bordo);
+}
