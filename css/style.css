@@ -21,6 +21,13 @@ img {
     margin: 0 auto;
 }
 
+.double-1,
+.double-2 {
+    height: 400px;
+    display: flex;
+    padding: var(--padding);
+}
+
                 /* HEADER*/
 
 header {
@@ -42,6 +49,10 @@ header {
     border: var(--bordo);
 }
 
+.small {
+    flex-basis: 20%;
+}
+
 .large {
     flex-grow: 1;
     text-align: center;
@@ -49,17 +60,13 @@ header {
 
 .header-link {
     text-decoration: none;
-    
-}
-
-.small {
-    flex-basis: 200px;
 }
 
                 /*MAIN*/
 
-                /* SECTION 1*/
-.main-1 {
+                /* card 1*/
+                
+section:first-child {
     padding: var(--padding);
           
             /*debug*/
@@ -76,53 +83,30 @@ header {
     border: var(--bordo);
 }
 
-                /* SECTION 2*/
-
-.double-1 {
-    display: flex;
-    align-items: stretch;
-    padding: var(--padding);
-}
-
 .card-blu {
-    width: 600px;
-    height: 300px;
+    width: 60%;
     
-
-                /*debug*/
+            /*debug*/
     background-color: #1e90ff;
     border: var(--bordo);
 }
 
 
 .card-rosa {
-    width: 400px;
-    height: 300px;
+    width: 40%;
     
             /*debug*/
     background-color: #ffc0cb;
     border: var(--bordo);
 }
 
-                /* SECTION 3*/
+                /* double 2*/
 
 .main-3 {
-    padding: var(--padding);
+            /*debug*/
     background-color: #d3d3d3;
 }
 
-.double-2 {
-    display: flex;
-    align-items: stretch;
-}
-
-                /* SECTION 4 */
-
-.double-3 {
-    display: flex;
-    align-items: stretch;
-    padding: var(--padding);
-}
     
                 /* SESSION 5 */
 .main-5 {
@@ -142,7 +126,7 @@ header {
                 /* FOOTER */
             /*footer section 1*/
 
-.footer-section-1 {
+#footer-section-1 {
     padding: 10px 0 30px 0;
             /*debug*/
     background-color: #23272a;
@@ -151,25 +135,24 @@ header {
 .main-footer {
     height: 450px;
     display: flex;
-    
 }
             
             /*cards*/
 
-.footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-}
-
+            
 .footer-card-rosa {
     width: 30%;
             /*debug*/
     background-color: #f08080;
     border: var(--bordo);
 }
-
-
+            
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+            
 .footer-card-cyan {
     flex-basis: 25%;
             /*debug*/
