@@ -21,16 +21,11 @@ img {
     margin: 0 auto;
 }
 
-            /* HEADER*/
+                /* HEADER*/
 
 header {
             /* debug*/
     background-color: #add8e6;
-}
-
-.header {
-    display: flex;
-    
 }
 
 .wrapper {
@@ -41,15 +36,20 @@ header {
 
 .header-tab {
     padding: 10px;
-            /* debug*/
+
+        /* debug*/
     background-color: #daa520;
     border: var(--bordo);
-    
 }
 
 .large {
     flex-grow: 1;
     text-align: center;
+}
+
+.header-link {
+    text-decoration: none;
+    
 }
 
 .small {
