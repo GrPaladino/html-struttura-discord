@@ -12,7 +12,7 @@ img {
 
 :root {
     --bordo: 1px dashed black;
-    --padding: 10px;
+    --padding: 40px 0;
 }
 
             /* HEADER*/
@@ -23,7 +23,7 @@ header {
     background-color: #add8e6;
 }
 
-.contenitore {
+.container {
     width: 1000px;
     margin: 0 auto;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .header-tab {
-    padding: var(--padding);
+    padding: 10px;
             /* debug*/
     background-color: #daa520;
     border: var(--bordo);
@@ -59,8 +59,9 @@ header {
 
                 /*MAIN*/
 
+                /* SECTION 1*/
 .main-1 {
-    padding: 40px 0;
+    padding: var(--padding);
           
             /*debug*/
     background-color: #00008b;
@@ -73,5 +74,33 @@ header {
 
             /*debug*/
     background-color: #ee82ee;
+    border: var(--bordo);
+}
+
+                /* SECTION 2*/
+
+.double-1 {
+    display: flex;
+    align-items: stretch;
+    padding: var(--padding);
+}
+
+.card-blu {
+    width: 600px;
+    height: 300px;
+    
+
+                /*debug*/
+    background-color: #1e90ff;
+    border: var(--bordo);
+}
+
+
+.card-rosa {
+    width: 400px;
+    height: 300px;
+    
+            /*debug*/
+    background-color: #ffc0cb;
     border: var(--bordo);
 }
