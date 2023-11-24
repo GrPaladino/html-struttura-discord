@@ -10,3 +10,48 @@ img {
     max-width: 100%;
 }
 
+:root {
+    --bordo: 1px dashed black;
+    --padding: 10px;
+}
+
+            /* HEADER*/
+
+header {
+    
+            /* debug*/
+    background-color: #add8e6;
+}
+
+.contenitore {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.header-tab {
+    padding: var(--padding);
+            /* debug*/
+    background-color: #daa520;
+    border: var(--bordo);
+}
+
+.small {
+    width: 25%;
+}
+
+.large {
+    width: 50%;
+    text-align: center;
+}
