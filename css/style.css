@@ -139,4 +139,42 @@ header {
     background-color: #228b22;
     border: var(--bordo)
 }
-                
+           
+                /* FOOTER */
+            /*section 1*/
+
+.footer-section-1 {
+    padding: 10px 0 30px 0;
+            /*debug*/
+    background-color: #23272a;
+}
+
+.main-footer {
+    height: 450px;
+    display: flex;
+    
+}
+            
+            /*cards*/
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footer-card-rosa {
+    width: 30%;
+            /*debug*/
+    background-color: #f08080;
+    border: var(--bordo);
+}
+
+
+.footer-card-cyan {
+    flex-basis: 25%;
+            /*debug*/
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+
