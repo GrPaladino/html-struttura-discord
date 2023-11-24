@@ -125,4 +125,18 @@ header {
     padding: var(--padding);
 }
     
+                /* SESSION 5 */
+.main-5 {
+    padding: var(--padding);
+            
+            /*debug*/
+    background-color: #d3d3d3;
+}
+            
+.card-verde {
+    height: 600px;           
+            /*debug*/
+    background-color: #228b22;
+    border: var(--bordo)
+}
                 
