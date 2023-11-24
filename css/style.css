@@ -11,33 +11,32 @@ img {
 }
 
 :root {
-    --bordo: 1px dashed black;
+    --bordo: 2px dashed black;
     --padding: 40px 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
 }
 
             /* HEADER*/
 
 header {
-    
             /* debug*/
     background-color: #add8e6;
 }
 
-.container {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .header {
-    min-height: 80px;
     display: flex;
-    align-items: center;
+    
 }
 
 .wrapper {
+    width: 100%;
+    padding: 15px 0;
     display: flex;
-    width: 1000px;
-    justify-content: space-between;
 }
 
 .header-tab {
@@ -175,7 +174,7 @@ header {
     flex-basis: 25%;
             /*debug*/
     background-color: #20b2aa;
-    border: 1px dashed white;
+    border: 2px dashed white;
 }
 
                 /* footer section 2 */
