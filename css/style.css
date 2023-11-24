@@ -104,3 +104,15 @@ header {
     background-color: #ffc0cb;
     border: var(--bordo);
 }
+
+                /* SECTION 3*/
+
+.main-3 {
+    padding: var(--padding);
+    background-color: #d3d3d3;
+}
+
+.double-2 {
+    display: flex;
+    align-items: stretch;
+}
