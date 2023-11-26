@@ -54,7 +54,7 @@ header {
 #header-logo {
     background-image: url("../img/logo.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
 }
                 /* link */
 
@@ -90,28 +90,6 @@ header {
     padding: var(--padding);
 }
 
-.buttons {
-    height: 60px;
-    padding: 20px;
-    text-align: center;
-}
-
-.main-1 button {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 20px;
-}
-
-.card {
-    width: 700px;
-    height: 300px;
-    margin: 0 auto;
-
-            /*debug*/
-    background-color: #ee82ee;
-    border: var(--bordo);
-}
-
 .titol {
     color: white;
     font-size: 2.5rem;
@@ -124,6 +102,29 @@ header {
     padding: 0 20px;
     font-size: 1.2rem;
     color: white;
+}
+
+.buttons {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-1 button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:last-child {
+    background-color: #222629;
+    color: white;
+}
+
+.card {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .card-blu {
