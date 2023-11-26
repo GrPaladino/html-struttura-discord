@@ -46,7 +46,7 @@ header {
     padding: 10px;
 }
                 /* logo */
-                
+
 .small {
     flex-basis: 20%;
 }
@@ -66,7 +66,7 @@ header {
     justify-content: space-around;
 }
 
-.header-link {
+.large a {
     text-decoration: none;
     color: white;
 }
@@ -83,11 +83,23 @@ header {
 
                 /* card 1*/
                 
-section:first-child {
+.main-1 {
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: var(--padding);
-          
-            /*debug*/
-    background-color: #00008b;
+}
+
+.buttons {
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-1 button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
 }
 
 .card {
@@ -98,6 +110,20 @@ section:first-child {
             /*debug*/
     background-color: #ee82ee;
     border: var(--bordo);
+}
+
+.titol {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.description {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .card-blu {
