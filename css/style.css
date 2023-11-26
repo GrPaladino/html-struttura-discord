@@ -31,8 +31,7 @@ img {
                 /* HEADER*/
 
 header {
-            /* debug*/
-    background-color: #add8e6;
+    background-color: #3161e0;
 }
 
 .wrapper {
@@ -42,24 +41,42 @@ header {
 }
 
 .header-tab {
+    display: flex;
+    justify-content: end;
     padding: 10px;
-
-        /* debug*/
-    background-color: #daa520;
-    border: var(--bordo);
 }
-
+                /* logo */
+                
 .small {
     flex-basis: 20%;
 }
 
+#header-logo {
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+                /* link */
+
 .large {
     flex-grow: 1;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-link {
     text-decoration: none;
+    color: white;
+}
+                /* button */
+
+.header-button {
+    border-radius: 12px;
+    padding: 3px 5px;
+    background-color: white;
+  
 }
 
                 /*MAIN*/
