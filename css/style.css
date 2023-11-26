@@ -50,7 +50,7 @@ header {
     justify-content: end;
     padding: 10px;
 }
-                /* logo */
+                /* logo header */
 
 .small {
     flex-basis: 20%;
@@ -61,7 +61,7 @@ header {
     background-repeat: no-repeat;
     background-position: left;
 }
-                /* link */
+                /* link header */
 
 .large {
     flex-grow: 1;
@@ -86,7 +86,52 @@ header {
 
                 /*MAIN*/
 
-                /* blocco 1*/
+                /* immagini */
+.img {
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+            
+#main2 {
+    background-image: url("../img/item1.svg");
+}
+            
+#main3 {
+    background-image: url("../img/item2.svg");
+}
+
+#main4 {
+    background-image: url("../img/item3.svg");
+
+}
+               /* logo onda */
+.logo-onda {
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+}
+            
+.logo-onda grigio {
+            
+}
+            
+.logo-onda bianco {
+            
+}
+                /* box di testo */
+.box-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 90px;
+    gap: 30px;
+}
+
+
+                /* blocco 1 */
                 
 .main-1 {
     background-image: url("../img/jumbo.png");
@@ -131,34 +176,15 @@ button:last-child {
     height: 300px;
     margin: 0 auto;
 }
-                /* blocco-2*/
-
-.img-main2 {
-    width: 60%;
-    background-image: url("../img/item1.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.box-text {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 90px;
-    gap: 30px;
-}
-
+            
                 /* blocco 3*/
 
 .block-3 {
-    /*background-image: url("../img/wave.svg");*/
             /*debug*/
     background-color: #d3d3d3;
 }
+ 
 
-    
                 /* SESSION 5 */
 .block-5 {
     padding: var(--padding);
